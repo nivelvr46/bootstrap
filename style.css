@@ -1,55 +1,317 @@
+/*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "poppins", sans-serif;
+}
+
+html{ 
+    scroll-behavior: smooth;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+}
+ 
+section nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    left: 0;
+    background: white;
+    box-shadow: 0 0 10px ;
+    z-index: index 1000;;
+}
+section nav .logo img{
+    width: 100px;
+    cursor: pointer;
+    margin: 7px 0;
+}
+section nav ul a {
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 25px;
+    margin-top: 10px;
+    margin-left: 36px;
+    color: #000;
+   font-weight: 700;
+   font-size: 17px;
+    
+}
+section nav ul a:hover{
+    color: #fac031;
+}
+
+section .main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 130px;
+}
+section .main .main-text h1{
+    font-size: 60px;
+    position: relative;
+    top:-90px;
+    left: 20px;
+}
+
+section .main .main-text h1 span{
+    margin-left: 15px;
+    color: #fac031;
+    font-family: monospace,;
+    line-height: 22px;
+    font-size: 70px;
+}
+section .main .main-image img{
+     width: 700px;
+     position: relative;
+     left: 70px;
+}
+section p {
+    width: 650px;
+    text-align: justify;
+    position: relative;
+    left:170px;
+    bottom: 120px;
+    line-height: 22px;
+}
+section .main-btn{
+    background: #fac031;
+    position: relative;
+    left: 170px; 
+    bottom: 30px;
+    width: 150px;
+    cursor: pointer;
+    padding: 12px 25px;
+}
+section .main-btn a {
+    color: white;
+    margin-right: 5px;
+}
+
+
+
+.about{
+    width: 100%;
+    height:100vh;
+    padding: 70px 0;
+}
+
+.about .about-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about .about-main .image img{
+    width: 800px;
+    position: relative;
+    top: 100px;
+}
+
+.about .about-main .about-text h1 span{
+    color: #fac031;
+    margin-right: 15px;
+    font-family:monospace;
+}
+
+.about .about-main .about-text h1{
+    font-size: 55px;
+    position: relative;
+    bottom: 50px;
+}
+ 
+.about .about-main .about-text h3{
+    font-size: 30px;
+    margin: 0 0 50px 0;
+}
+
+.about .about-main .about-text p{
+    width: 650px;
+    text-align: justify;
+    margin-right: 30px;
+    line-height: 25px;
+}
+
+.about .about-btn{
+    background: #fac031;
+    padding: 12px 25px;
+    color: white;
+    position: relative;
+    left: 58%;
+    bottom: 30px;
+}
+ .menu .card{
+    
+    box-shadow: 0 0 10px;
+    transition: 0.3s;
+ }
+
+
+
+.menu .menu-text h1 {
+    
+    font-size: 3rem;
+    font-weight: 700;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+.menu .menu-text span{
+    color: #fac031;
+    font-family: monospace;
+    font-weight: 800;
+    font-size: 4rem;
+} 
+
+
+.menu .card-img-top:hover{
+     transform: scale(1.1);
+}
+
+.menu .menu-icon{
+    color: #fac031;
+   
+}
+ .menu .card-title{
+    color: #fac031;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    
+}
+
+
+
+.gallery h1{
+    font-size: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery h1 span{
+    margin-left: 15px;
+    color: #fac031;
+    font-family: monospace;
+}
+
+.carousel-inner{
+
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.order{
+    width: 100%;
+    height: 100vh;
+    padding: 70px 0;
+    background-image: url(image/bg2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.order .order-main
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.order .order-main .order-image img{
+    width: 600px;
+}
+.order .order-main form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:0 10px
+}
+.order .order-main form .input p{
+    line-height: 25px;
+}
+.order .order-main form .input{
+    margin: 5px;
+}
+
+.order .order-main form .input input{
+    width: 300px;
+    height: 35px;
+    padding: 0 10px;
+    border:2px solid #cccccc;
+    background: #cccccc;
+    outline: none;
+    border-radius: 3px;
+}
+.order .order-main form .input input:focus{
+    border: 2px solid #fac031;
+}
+.order .order-main form .order-btn{
+    width: 200px;
+    padding: 10px 0;
+    background: #fac031;
+    color: #cccccc;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+}*/
+
 *{
     margin: 0;
     padding: 0;
-    text-decoration: none;
-    box-sizing: border-box;
     font-family: "poppins", sans-serif;
+    box-sizing: border-box;
 }
+ 
 .container{
-    position: fixed;
-    top: 0;
-    left: 0;
-    
     width: 100%;
-    padding: 20px 10%;
+    height: 100vh;
+    background: #e3f9ff;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    z-index: 100;
 }
-
-.navbar-brand{
-    color: blue;
-    font-size: 2rem;
-    font-weight: 800;
-    
+.calculater{
+    background: #3a4452;
+    padding: 20px;
+    border-radius: 10px;
 }
-
-.navbar-nav{
-  position: fixed;
-  text-decoration: none;
-top: 0;
-  left: 0;
-  width: 45%;
-  margin-left: 60%;
-  padding: 20px 10%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 1.4rem;
-  font-weight: 600;
-
-}
-.home-content{
+.calculater form input{
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height:60px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(200, 27, 27, 0.1),5px 5px 15px rgba(230, 223, 223, 0.3);
+    background: transparent;
+    font-size: 20px;
     color: white;
-    position: relative;
-   width: 100%;
-   
-   height: 100vh;
-   background-image: url("https://th.bing.com/th/id/OIP.4o5pIpQ8HKrdjmArZV8BPgHaEK?w=247&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7");
-   background-size: cover;
-   background-position: center;
-   background-repeat: no-repeat;
-   align-items: center;
-   padding: 450px 500px;
+    cursor: pointer;
+    margin: 10px;
+
+}
+
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+
+form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+}
+
+form input.equal{
+    width: 145px;
 }
